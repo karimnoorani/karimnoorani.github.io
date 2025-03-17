@@ -29,20 +29,20 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Development',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
           title: 'Internal Data Platform',
           description:
-            'Designed, researched, and developed an internal data platform and workflow management application using batch data pipelines, HTML, CSS, Javascript, Python, and Flask. Integrated with cloud data infrastructure (AWS), ClickUp API, and Drupal CMS. Boosted workflow efficiency by over 50% and delivered readership growth through predictative analysis algorithms applied across thousands of stories. Facilitates data collection and content strategy across 200M+ readers each month. Click to see video demo',
+            'Designed, researched, and developed an internal data platform and workflow management application using batch data pipelines, HTML, CSS, Javascript, Python, and Flask. Integrated with cloud data infrastructure (AWS), ClickUp API, and Drupal CMS. Boosted workflow efficiency by over 50% and delivered readership growth through predictative analysis algorithms applied across thousands of stories. Facilitates data collection and content strategy across 200M+ readers each month',
           imageUrl:'https://i.ibb.co/R4ycGhVD/Screenshot-2025-03-14-at-12-06-14-PM.png',
           link: 'https://youtu.be/zRI7YzkQRzU',
         },
         {
           title: 'Local Story Previewer',
           description:
-            'Pitched, designed, and built an internal story staging environment that drastically simplified the process to create, edit, and upload localized stories using Python, HTML, CSS, Javascript, and Flask. Created 20+ integrated applications using REST APIs that helped editors see and correct errors en masse. Facilitated production of 100K+ local data journalism stories to date and become the most widely used internally developed application at Stacker Media. Powers data journalism delivered to thousands of local news partners across the US. Click to see video demo',
+            'Pitched, designed, and built an internal story staging environment that drastically simplified the process to create, edit, and upload localized stories using Python, HTML, CSS, Javascript, and Flask. Created 20+ integrated applications using REST APIs that helped editors see and correct errors en masse. Facilitated production of 100K+ local data journalism stories to date and become the most widely used internally developed application at Stacker Media. Powers data journalism delivered to thousands of local news partners across the US',
           imageUrl:
             'https://i.ibb.co/0p65HXk6/Screenshot-2025-03-14-at-2-07-54-PM.png',
           link: 'https://youtu.be/2Ss-zcMlKW0',
@@ -132,24 +132,66 @@ const CONFIG = {
     },
   ],
   publications: [
-    // {
-    //   title: 'Publication Title',
-    //   conferenceName: '',
-    //   journalName: 'Journal Name',
-    //   authors: 'John Doe, Jane Smith',
-    //   link: 'https://example.com',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    // },
-    // {
-    //   title: 'Publication Title',
-    //   conferenceName: 'Conference Name',
-    //   journalName: '',
-    //   authors: 'John Doe, Jane Smith',
-    //   link: 'https://example.com',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    // },
+    {
+      title: 'Restaurant inspections in [metro]',
+      conferenceName: '',
+      journalName: 'USA Today Network',
+      authors: '',
+      link: 'https://www.palmbeachpost.com/story/news/2022/11/03/health-inspections-10-palm-beach-county-restaurants-cited-for-pests/69605044007/',
+      imageUrl:'https://www.theledger.com/gcdn/presto/2022/08/31/USAT/243dbb43-ea4a-4fd2-918d-70dc9e6399a9-Anna_Jones_Food173recaption.JPG?width=1320&height=882&fit=crop&format=pjpg&auto=webp',
+      description:
+        'I pitched and created an automated restaurant inspection story that localized government data for counties in Florida. Published across dozens of Gannett newspapers every week. Series earned company-wide recognition for achieving a high rate of newspaper subscriber conversion.',
+    },
+    {
+      title: 'Top 25 songs in [metro] this past week',
+      conferenceName: '',
+      journalName: 'Stacker',
+      authors: '',
+      link: 'https://stacker.com/stories/california/los-angeles/top-25-songs-los-angeles-shazam-past-week',
+      imageUrl:'https://static.stacker.com/s3fs-public/styles/sar_screen_maximum_large/s3/ShazamPH5Q.png',
+      description:
+        'I applied web scraping, data analysis, and natural language generation using data from Shazam to create a series on the most popular songs across the US. Leveraged automation and designed algorithms to generate automated insights for 151 unique local versions sent to news partners.',
+    },
+    {
+      title: 'Best video game released the year you graduated high school',
+      conferenceName: '',
+      journalName: 'Stacker',
+      authors: '',
+      link: 'https://stacker.com/stories/art-culture/best-video-game-released-year-you-graduated-high-school',
+      imageUrl:'https://static.stacker.com/s3fs-public/styles/sar_screen_maximum_large/s3/5A9B3HA_0.JPEG',
+      description:
+        'I programmatically sifted through raw IMDB data to find the best video game released each year. Implemented dynamic scoring and review cutoff algorithms to clean data and filter list.',
+    },
+    {
+      title: 'These names are more popular across the pond',
+      conferenceName: '',
+      journalName: 'Stacker',
+      authors: '',
+      link: 'https://stacker.com/stories/family/these-names-are-more-popular-across-pond',
+      imageUrl:'https://static.stacker.com/s3fs-public/styles/sar_screen_maximum_large/s3/MPNAthePIALG_0.png',
+      description:
+        'I programmatically aggregated and analyzed baby name data to find the most unique names across the US and UK. Data was transformed into chart to visualize gap between the two countries.',
+    },
+    {
+      title: 'Biggest March Madness upsets',
+      conferenceName: '',
+      journalName: 'Stacker',
+      authors: '',
+      link: 'https://stacker.com/stories/basketball/biggest-march-madness-upsets-1982',
+      imageUrl:'https://static.stacker.com/s3fs-public/marchmadnessaverages18upsetsinlast45yearsX6EK.png',
+      description:
+        'I pitched and created a data analysis to find the biggest March Madness upsets using web scraping. Aggregate data was transformed into visualization charting upsets since 1979.',
+    },
+    {
+      title: 'Most successful teams in Women\'s World Cup',
+      conferenceName: '',
+      journalName: 'Stacker',
+      authors: '',
+      link: 'https://stacker.com/stories/sports/10-most-successful-countries-womens-world-cup-history',
+      imageUrl:'https://static.stacker.com/s3fs-public/styles/slide_desktop/s3/2023-06/revised-world-cup-chart.png',
+      description:
+        'I programmatically compiled and created a ranking of the most sucessful countries in the Women\'s World Cup. Aggregate data was transformed into visualization illustrating finishes by each respective country.',
+    }
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {

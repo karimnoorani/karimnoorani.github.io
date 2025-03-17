@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 import { SanitizedPublication } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
+import LazyImage from '../lazy-image';
 
 const PublicationCard = ({
   publications,
@@ -94,7 +95,7 @@ const PublicationCard = ({
                     </p>
                   )}
                   {item.journalName && (
-                    <p className="text-base-content opacity-50 text-sm">
+                    <p className="font-medium opacity-50 mb-2">
                       {item.journalName}
                     </p>
                   )}
@@ -102,6 +103,21 @@ const PublicationCard = ({
                     <p className="text-base-content opacity-50 text-sm">
                       Author: {item.authors}
                     </p>
+                  )}
+                  {item.imageUrl && (
+                    <div className="avatar opacity-90">
+                      <div className="w-64 h-48 mask">
+                        <LazyImage
+                          src={item.imageUrl}
+                          alt={'thumbnail'}
+                          placeholder={skeleton({
+                            widthCls: 'w-full',
+                            heightCls: 'h-full',
+                            shape: '',
+                          })}
+                        />
+                      </div>
+                    </div>
                   )}
                   {item.description && (
                     <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
@@ -130,7 +146,7 @@ const PublicationCard = ({
                       skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        Publications
+                        Data Projects
                       </span>
                     )}
                   </h5>

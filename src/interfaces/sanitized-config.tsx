@@ -98,6 +98,7 @@ export interface SanitizedPublication {
   authors?: string;
   link?: string;
   description?: string;
+  imageUrl?: string;
 }
 
 export interface SanitizedGoogleAnalytics {
