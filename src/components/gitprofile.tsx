@@ -284,7 +284,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                 </div>
               </div>
             </div>
-            {/* {sanitizedConfig.footer && (
+            {sanitizedConfig.footer && (
               <footer
                 className={`p-4 footer ${BG_COLOR} text-base-content footer-center`}
               >
@@ -292,7 +292,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                   <Footer content={sanitizedConfig.footer} loading={loading} />
                 </div>
               </footer>
-            )} */}
+            )}
           </>
         )}
       </div>
