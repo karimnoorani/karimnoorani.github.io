@@ -96,7 +96,7 @@ const CONFIG = {
   experiences: [
     {
       company: 'Stacker Media',
-      position: 'Data Engineer',
+      position: 'Software Engineer',
       from: 'November 2022',
       to: 'Present',
       companyLink: 'https://stacker.com',
