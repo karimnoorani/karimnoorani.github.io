@@ -47,6 +47,14 @@ const CONFIG = {
             'https://i.ibb.co/0p65HXk6/Screenshot-2025-03-14-at-2-07-54-PM.png',
           link: 'https://youtu.be/2Ss-zcMlKW0',
         },
+        {
+          title: 'Quizzicle game',
+          description:
+            'Built a React game that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance.',
+          imageUrl:
+            'https://i.ibb.co/My1yR8zd/Screenshot-2025-04-30-at-1-57-44-PM.png',
+          link: 'https://quizzicle.playcode.io',
+        },
       ],
     },
   },
