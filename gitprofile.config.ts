@@ -52,7 +52,7 @@ const CONFIG = {
           description:
             'Built a React game that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance.',
           imageUrl:
-            'https://i.ibb.co/My1yR8zd/Screenshot-2025-04-30-at-1-57-44-PM.png',
+            'https://i.ibb.co/HTZf2GqW/Screenshot-2025-04-30-at-2-46-39-PM.png',
           link: 'https://quizzicle.playcode.io',
         },
       ],
