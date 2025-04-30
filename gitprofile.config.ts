@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: 'Quizzicle game',
           description:
-            'Built a React game that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance.',
+            'Built a React game from scratch that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimization. Answer multiple choice general trivia questions (live pulled from a database of over 4,000 questions) while the game keeps track of how many you get right/wrong.',
           imageUrl:
             'https://i.ibb.co/HTZf2GqW/Screenshot-2025-04-30-at-2-46-39-PM.png',
           link: 'https://quizzicle.playcode.io',
