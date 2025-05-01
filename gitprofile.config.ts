@@ -48,6 +48,14 @@ const CONFIG = {
           link: 'https://youtu.be/2Ss-zcMlKW0',
         },
         {
+          title: 'Word Grid Shuffle',
+          description:
+            'Built a React game from scratch that lets users find words in a shuffle grid of letters. Words are verified with an integration from dictionary API. Utilizies React states, props, API requests, parent/child components, conditional rendering, web accessibility, and perfomance optimizations. Find valid english words while the game keeps track of a score based on the length of the words found. Found words are displayed and filtered out. Users can restart the game to get a new grid of letters and reset score/found words.',
+          imageUrl:
+            'https://i.ibb.co/Ldk33Ks9/Screenshot-2025-05-01-at-11-39-03-AM.png',
+          link: 'https://wordgridshuffle.playcode.io',
+        },
+        {
           title: 'Quizzicle game',
           description:
             'Built a React game from scratch that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimization. Answer multiple choice general trivia questions (live pulled from a database of over 4,000 questions) while the game keeps track of how many you get right/wrong.',
@@ -90,12 +98,14 @@ const CONFIG = {
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'React.js',
+    'JavaScript',
+    'HTML',
+    'TypeScript',
     'Python',
+    'Node.js',
     'C++',
     'C#',
-    'HTML',
-    'JavaScript',
-    'React.js',
     'SQL',
     'Git',
     'CSS',
