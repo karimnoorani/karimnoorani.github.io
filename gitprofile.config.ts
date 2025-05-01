@@ -56,9 +56,17 @@ const CONFIG = {
           link: 'https://wordgridshuffle.playcode.io',
         },
         {
+          title: 'Lights Out game',
+          description:
+            'Built a React game from scratch that lets users turn on/off light panels until all the lights are "out." Utilizes React states, props, matrix computations, parent/child components, conditional rendering, web accessibility, and performance optimizations. Game keeps track of the number moves made by the player to keep a running score. Integrated with React Confetti to create an effect when the game is won. Players can restart the game to get a new grid and reset their move count.',
+          imageUrl:
+            'https://i.ibb.co/Kp7rWkrS/Screenshot-2025-05-01-at-5-42-25-PM.png',
+          link: 'https://playcode.io/lightsout',
+        },
+        {
           title: 'Quizzicle game',
           description:
-            'Built a React game from scratch that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimization. Answer multiple choice general trivia questions (live pulled from a database of over 4,000 questions) while the game keeps track of how many you get right/wrong.',
+            'Built a React game from scratch that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimizations. Answer multiple choice general trivia questions (live pulled from a database of over 4,000 questions) while the game keeps track of how many you get right/wrong.',
           imageUrl:
             'https://i.ibb.co/HTZf2GqW/Screenshot-2025-04-30-at-2-46-39-PM.png',
           link: 'https://quizzicle.playcode.io',
