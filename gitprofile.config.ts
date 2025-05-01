@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['karimnoorani/karimnoorani.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: 'Word Grid Shuffle',
           description:
-            'Built a React game from scratch that lets users find words in a shuffle grid of letters. Words are verified with an integration from dictionary API. Utilizes React states, props, API requests, parent/child components, conditional rendering, web accessibility, and perfomance optimizations. Find valid english words while the game keeps track of a score based on the length of the words found. Found words are displayed and filtered out. Users can restart the game to get a new grid of letters and reset score/found words.',
+            'Built a React game from scratch that lets users find words in a shuffled grid of letters. Words are verified with a dictionary API integration. Utilizes React states, props, API requests, parent/child components, conditional rendering, web accessibility, and perfomance optimizations. Find valid english words while the game keeps track of a score based on the length of the words found. Found words are displayed and filtered out. Users can restart the game to get a new grid of letters and reset score/found words.',
           imageUrl:
             'https://i.ibb.co/Ldk33Ks9/Screenshot-2025-05-01-at-11-39-03-AM.png',
           link: 'https://wordgridshuffle.playcode.io',
