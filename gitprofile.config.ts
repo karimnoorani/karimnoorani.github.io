@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: ['karimnoorani/karimnoorani.github.io', 'karimnoorani/personal-projects'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['karimnoorani/karimnoorani.github.io', 'karimnoorani/personal-projects', 'karimnoorani/webdev'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
@@ -58,10 +58,10 @@ const CONFIG = {
         {
           title: 'Lights Out',
           description:
-            'Built a React game from scratch that lets users turn on/off light panels until all the lights are "out." Utilizes React states, props, matrix computations, parent/child components, conditional rendering, web accessibility, and performance optimizations. Game keeps track of the number moves made by the player to keep a running score. Integrated with React Confetti to create an effect when the game is won. Players can restart the game to get a new grid and reset their move count.',
+            'Built a React game from scratch that lets users turn on/off light panels until all the lights are "out." Utilizes React states, props, matrix computations, parent/child components, conditional rendering, web accessibility, and performance optimizations. Game keeps track of the number moves made by the player to keep a running score. Integrated with React Confetti to create an effect when the game is won. Players can restart the game to get a new grid and reset their move count. Implemented in TypeScript',
           imageUrl:
             'https://i.ibb.co/Kp7rWkrS/Screenshot-2025-05-01-at-5-42-25-PM.png',
-          link: 'https://playcode.io/lightsout',
+          link: 'https://lightsout.playcode.io',
         },
         {
           title: 'Quizzicle',
