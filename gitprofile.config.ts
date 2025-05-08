@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: 'Fact Check Assistant',
           description:
-            'Built a React app from scratch that lets editorial teams mark up, highlight, and quickly fact check story articles. Utilizes React states, props, conditional rendering, web accessibility, and performance optimizations. Integrated with popular fact-checking websites such as Google, Snopes, and Politifact. Users can add/remove flagged claims that might be incorrect.',
+            'Built a React app from scratch that lets editorial teams mark up, highlight, and quickly fact check story articles. Utilizes React states, props, conditional rendering, web accessibility, and performance optimizations. Integrated with popular fact-checking websites such as Google, Snopes, and Politifact. Users can add/remove flagged claims that require furthing checking. Developed from my experience as a magazine editorial intern at Sports Illustrated and In These Times.',
           imageUrl:
             'https://i.ibb.co/xSqTdN4y/Screenshot-2025-05-08-at-5-44-03-PM.png',
           link: 'https://factcheckassistant.playcode.io',
