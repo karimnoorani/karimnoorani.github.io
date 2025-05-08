@@ -48,6 +48,14 @@ const CONFIG = {
           link: 'https://youtu.be/2Ss-zcMlKW0',
         },
         {
+          title: 'Fact Check Assistant',
+          description:
+            'Built a React app from scratch that lets editorial teams mark up, highlight, and quickly fact check story articles. Utilizes React states, props, conditional rendering, web accessibility, and performance optimizations. Integrated with popular fact-checking websites such as Google, Snopes, and Politifact. Users can add/remove flagged claims that might be incorrect.',
+          imageUrl:
+            'https://i.ibb.co/xSqTdN4y/Screenshot-2025-05-08-at-5-44-03-PM.png',
+          link: 'https://factcheckassistant.playcode.io',
+        },
+        {
           title: 'Word Grid Shuffle',
           description:
             'Built a React game from scratch that lets users find words in a shuffled grid of letters. Words are verified with a dictionary API integration. Utilizes React states, props, API requests, parent/child components, conditional rendering, web accessibility, and perfomance optimizations. Find valid english words while the game keeps track of a score based on the length of the words found. Found words are displayed and filtered out. Users can restart the game to get a new grid of letters and reset score/found words.',
