@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'Internal Data Platform',
           description:
-            'Designed, researched, and developed an internal data platform and workflow management application using batch data pipelines, HTML, CSS, Javascript, Python, and Flask. Integrated with cloud data infrastructure (AWS), ClickUp API, and Drupal CMS. Boosted workflow efficiency by over 50% and delivered readership growth through predictative analysis algorithms applied across thousands of stories. Facilitates data collection and content strategy across 200M+ readers each month',
+            'Designed, researched, and developed an internal data platform and workflow management application using batch data pipelines, HTML, CSS, Javascript, Python, and Flask. Integrated with cloud data infrastructure (AWS), ClickUp API, and Drupal CMS. Boosted workflow efficiency by over 50% and delivered readership growth through predictive analysis algorithms applied across thousands of stories. Facilitates data collection and content strategy across 200M+ readers each month',
           imageUrl:'https://i.ibb.co/R4ycGhVD/Screenshot-2025-03-14-at-12-06-14-PM.png',
           link: 'https://youtu.be/zRI7YzkQRzU',
         },
