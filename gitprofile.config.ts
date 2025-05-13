@@ -137,7 +137,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Stacker Media',
+      company: 'Stacker',
       position: 'Software Engineer',
       from: 'November 2022',
       to: 'Present',
@@ -150,6 +150,20 @@ const CONFIG = {
       to: 'September 2022',
       companyLink: 'https://www.usatoday.com',
     },
+    {
+      company: 'In These Times',
+      position: 'Editorial Intern',
+      from: 'September 2021',
+      to: 'December 2021',
+      companyLink: 'https://inthesetimes.com',
+    },
+    {
+      company: 'Sports Illustrated',
+      position: 'Editorial Intern',
+      from: 'March 2021',
+      to: 'June 2021',
+      companyLink: 'https://www.si.com',
+    }
   ],
   certifications: [
     // {
