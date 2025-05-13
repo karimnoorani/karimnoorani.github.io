@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: 'Fact Check Assistant',
           description:
-            'Built a React app from scratch that lets editorial teams mark up, highlight, and quickly fact check story articles. Utilizes React states, props, conditional rendering, web accessibility, and performance optimizations. Integrated with popular fact-checking websites such as Google, Snopes, and Politifact. Users can add/remove flagged claims that require furthing checking. Developed from my experience as a magazine editorial intern at Sports Illustrated and In These Times.',
+            'Built a React app from scratch that lets editorial teams mark up, highlight, and quickly fact check story articles. Utilizes React states, props, conditional rendering, web accessibility, and performance optimizations. Integrated with popular fact-checking websites such as Google, Snopes, and Politifact. Users can add flagged claims that require furthing checking. Developed from my experience as a magazine editorial intern at Sports Illustrated and In These Times.',
           imageUrl:
             'https://i.ibb.co/xSqTdN4y/Screenshot-2025-05-08-at-5-44-03-PM.png',
           link: 'https://factcheckassistant.playcode.io',
@@ -58,7 +58,7 @@ const CONFIG = {
         {
           title: 'Headline Optimizer',
           description:
-            'Built a React app from scratch that gives feedback on story headlines. Addresses factors such as factors such as clarity, conciseness, keywords, and tone while also suggesting alternate headlines/phrasing. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimizations. Integrated with Anthropic\'s Claude API to give feeback and able to trained on specific story data.',
+            'Built a React app from scratch that gives feedback on story headlines. Addresses factors such as factors such as clarity, conciseness, keywords, and tone while also suggesting alternate headlines/phrasing. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimizations. Integrated with Anthropic\'s Claude API to give relevant feeback on user-submitted headlines.',
           imageUrl:
             'https://i.ibb.co/SX2VNnTQ/Screenshot-2025-05-13-at-1-22-20-PM.png',
           link: 'https://headlineoptimizer.playcode.io',
