@@ -56,6 +56,14 @@ const CONFIG = {
           link: 'https://factcheckassistant.playcode.io',
         },
         {
+          title: 'Headline Optimizer',
+          description:
+            'Built a React app from scratch that gives feedback on story headlines. Addresses factors such as factors such as clarity, conciseness, keywords, and tone while also suggesting alternate headlines/phrasing. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimizations. Integrated with Anthropic\'s Claude API to give feeback and able to trained on specific story data.',
+          imageUrl:
+            'https://i.ibb.co/SX2VNnTQ/Screenshot-2025-05-13-at-1-22-20-PM.png',
+          link: 'https://headlineoptimizer.playcode.io',
+        },
+        {
           title: 'Word Grid Shuffle',
           description:
             'Built a React game from scratch that lets users find words in a shuffled grid of letters. Words are verified with a dictionary API integration. Utilizes React states, props, API requests, parent/child components, conditional rendering, web accessibility, and perfomance optimizations. Find valid english words while the game keeps track of a score based on the length of the words found. Found words are displayed and filtered out. Users can restart the game to get a new grid of letters and reset score/found words.',
