@@ -74,7 +74,7 @@ const CONFIG = {
         {
           title: 'Anagram Attack',
           description:
-            'Built a React game from scratch that lets users find anagrams from a randomly generated words. Words are verified with a dictionary API integration and algorithm to verify anagrams. Utilizes React states, props, API requests, parent/child components, conditional rendering, web accessibility, and perfomance optimizations. The game updates score based on the length of anagram found. Found words are displayed and filtered out from future guesses. Users can restart the game to get a new word and reset their guesses.',
+            'Built a React game from scratch that lets users find anagrams from a randomly generated word. Words are verified with a dictionary API integration and algorithm to verify valid anagrams. Utilizes React states, props, API requests, parent/child components, conditional rendering, web accessibility, and perfomance optimizations. The game updates score based on the length of anagram found. Found words are displayed and filtered out from future guesses.',
           imageUrl:
             'https://i.ibb.co/VWyWXJ6d/Screenshot-2025-05-15-at-3-33-45-PM.png',
           link: 'https://anagramattack.playcode.io',
