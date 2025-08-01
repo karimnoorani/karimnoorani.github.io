@@ -35,14 +35,14 @@ const CONFIG = {
         {
           title: 'Internal Data Platform',
           description:
-            'Designed, researched, and developed an internal data platform and workflow management application using batch data pipelines, HTML, CSS, Javascript, Python, and Flask. Integrated with cloud data infrastructure (AWS), ClickUp API, and Drupal CMS. Boosted workflow efficiency by over 50% and delivered readership growth through predictive analysis algorithms applied across thousands of stories. Facilitates data collection and content strategy across 200M+ readers each month',
+            'Designed, researched, and developed an internal data platform and workflow management application using batch data pipelines, HTML, CSS, JavaScript, Python, and Flask. Integrated with AWS infrastructure, the ClickUp API, and the Drupal CMS. Boosted workflow efficiency by over 50% and drove readership growth through predictive analysis algorithms applied across thousands of stories. The platform supports data collection and content strategy for 200M+ readers monthly.',
           imageUrl:'https://i.ibb.co/R4ycGhVD/Screenshot-2025-03-14-at-12-06-14-PM.png',
           link: 'https://youtu.be/zRI7YzkQRzU',
         },
         {
           title: 'Local Story Previewer',
           description:
-            'Pitched, designed, and built an internal story staging environment that drastically simplified the process to create, edit, and upload localized stories using Python, HTML, CSS, Javascript, and Flask. Created 20+ integrated applications using REST APIs that helped editors see and correct errors en masse. Facilitated production of 100K+ local data journalism stories to date and become the most widely used internally developed application at Stacker Media. Powers data journalism delivered to thousands of local news partners across the US',
+            'Pitched, designed, and built a story staging environment that streamlined the creation, editing, and uploading of localized stories using Python, HTML, CSS, JavaScript, and Flask. Developed 20+ integrated applications with REST APIs to help editors identify and fix errors at scale. Facilitated the production of over 100,000 local data journalism stories and became the most widely used internal application at Stacker. Powers data journalism distributed to thousands of local news partners nationwide.',
           imageUrl:
             'https://i.ibb.co/0p65HXk6/Screenshot-2025-03-14-at-2-07-54-PM.png',
           link: 'https://youtu.be/2Ss-zcMlKW0',
@@ -50,7 +50,7 @@ const CONFIG = {
         {
           title: 'Fact Check Assistant',
           description:
-            'Built a React app from scratch that lets editorial teams mark up, highlight, and quickly fact check story articles. Utilizes React states, props, conditional rendering, web accessibility, and performance optimizations. Integrated with popular fact-checking websites such as Google, Snopes, and Politifact. Users can add flagged claims that require furthing checking. Developed from my experience as a magazine editorial intern at Sports Illustrated and In These Times.',
+            'Developed a React application that enables editorial teams to mark up, highlight, and quickly fact-check articles. Built with React states, props, conditional rendering, accessibility features, and performance optimizations. Integrated with fact-checking sites like Google, Snopes, and PolitiFact. Users can flag and track claims needing further verification. Inspired by my editorial experience at Sports Illustrated and In These Times.',
           imageUrl:
             'https://i.ibb.co/xSqTdN4y/Screenshot-2025-05-08-at-5-44-03-PM.png',
           link: 'https://factcheckassistant.playcode.io',
@@ -58,7 +58,7 @@ const CONFIG = {
         {
           title: 'Headline Optimizer',
           description:
-            'Built a React app from scratch that gives feedback on story headlines. Addresses factors such as factors such as clarity, conciseness, keywords, and tone while also suggesting alternate headlines/phrasing. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimizations. Integrated with Anthropic\'s Claude API to give relevant feeback on user-submitted headlines.',
+            'Created a React app that analyzes and provides feedback on story headlines, focusing on clarity, conciseness, keywords, and tone. Suggests alternative phrasing to improve impact and SEO. Built using React states, hooks, props, API requests, and modular components with accessibility and performance optimizations. Integrated with Anthropic’s Claude API to generate relevant headline suggestions.',
           imageUrl:
             'https://i.ibb.co/SX2VNnTQ/Screenshot-2025-05-13-at-1-22-20-PM.png',
           link: 'https://headlineoptimizer.playcode.io',
