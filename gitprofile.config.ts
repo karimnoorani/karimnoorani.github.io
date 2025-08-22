@@ -34,7 +34,7 @@ const CONFIG = {
       projects: [
         {
           title: 'Content Data Explorer',
-          description: 'Designed and developed a React + TypeScript web application to help editorial, product, and data teams explore content performance data. Implemented features including keyword search, filters, sortable/paginated tables, and CSV export. Integrated interactive data visualization using Recharts to highlight top tags and engagement patterns. Applied custom CSS/Tailwind styling for a responsive, accessible UI with polished dashboards and tag components.',
+          description: 'Designed and developed a React + TypeScript web application to help editorial, product, and data teams explore content performance data. Implemented features including keyword search, filters, sortable/paginated tables, and CSV export. Integrated interactive data visualization using Recharts to highlight top tags and engagement patterns. Applied custom CSS styling for a responsive, accessible UI with polished dashboards and tag components. Integrated with Python data pipelines and NoSQL database to power high-volume analytics.',
           imageUrl: 'https://i.ibb.co/mCt4vHgr/Screenshot-2025-08-22-at-4-26-55-PM.png',
           link: 'https://contentexplorer.playcode.io'
         },
@@ -93,14 +93,14 @@ const CONFIG = {
             'https://i.ibb.co/Kp7rWkrS/Screenshot-2025-05-01-at-5-42-25-PM.png',
           link: 'https://lightsout.playcode.io',
         },
-        {
-          title: 'Quizzicle',
-          description:
-            'Built a React game from scratch that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimizations. Answer multiple choice general trivia questions (live pulled from a database of over 4,000 questions) while the game keeps track of how many you get right/wrong.',
-          imageUrl:
-            'https://i.ibb.co/HTZf2GqW/Screenshot-2025-04-30-at-2-46-39-PM.png',
-          link: 'https://quizzicle.playcode.io',
-        },
+        // {
+        //   title: 'Quizzicle',
+        //   description:
+        //     'Built a React game from scratch that lets users answer trivia questions via Open Trivia Database API. Utilizes React states, hooks/effects, props, API requests, parent/child components, conditional rendering, web accessibility, and performance optimizations. Answer multiple choice general trivia questions (live pulled from a database of over 4,000 questions) while the game keeps track of how many you get right/wrong.',
+        //   imageUrl:
+        //     'https://i.ibb.co/HTZf2GqW/Screenshot-2025-04-30-at-2-46-39-PM.png',
+        //   link: 'https://quizzicle.playcode.io',
+        // },
       ],
     },
   },
