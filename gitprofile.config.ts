@@ -33,6 +33,11 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'Content Data Explorer',
+          description: 'Designed and developed a React + TypeScript web application to help editorial, product, and data teams explore content performance data. Implemented features including keyword search, filters, sortable/paginated tables, and CSV export. Integrated interactive data visualization using Recharts to highlight top tags and engagement patterns. Applied custom CSS/Tailwind styling for a responsive, accessible UI with polished dashboards and tag components.',
+          imageUrl: 'https://i.ibb.co/mCt4vHgr/Screenshot-2025-08-22-at-4-26-55-PM.png',
+          link: 'https://contentexplorer.playcode.io'
+        {
           title: 'Internal Data Platform',
           description:
             'Designed, researched, and developed an internal data platform and workflow management application using batch data pipelines, HTML, CSS, JavaScript, Python, and Flask. Integrated with AWS infrastructure, the ClickUp API, and the Drupal CMS. Boosted workflow efficiency by over 50% and drove readership growth through predictive analysis algorithms applied across thousands of stories. The platform supports data collection and content strategy for 200M+ readers monthly.',
